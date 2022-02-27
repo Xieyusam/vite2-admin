@@ -1,0 +1,66 @@
+@import "variable.scss";
+/* 弹性盒子 */
+.flex {
+	display: flex;
+}
+.flex-item {
+	flex: 1;
+}
+.flex-just-center {
+	justify-content: center;
+}
+.flex-just-between {
+	justify-content: space-between;
+}
+.flex-align-center {
+	align-items: center;
+}
+.flex-column {
+	flex-direction: column;
+}
+/* 定位 */
+.pull-relative{
+  position: relative;
+}
+.pull-absolute{
+  position: absolute;
+}
+.pull-fixed{
+  position: fixed;
+}
+/* 文本对齐 */
+.text-center{
+  text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+// 边距
+.margin-b10 {
+  margin-bottom: 10px;
+}
+.margin-b15 {
+  margin-bottom: 15px;
+}
+.margin-b20{
+	margin-bottom: 20px;
+}
+.margin-t10 {
+  margin-top: 10px;
+}
+.margin-t15 {
+  margin-top: 15px;
+}
+.margin-t20 {
+  margin-top: 20px;
+}
+.margin-L10{
+  margin-left: 10px;
+}
+
+.no-wrap{
+  @include no-wrap;
+}
